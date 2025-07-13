@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header>
+    <nav>
+        <ul class="nav-list">
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section id="home" class="home-section">
+        <img src="Screenshot 2025-07-13 184204.png" alt="My Profile" class="profile-img" />
+        <h1>Hello, I'm Suzan Chhetri</h1>
+        <p>Welcome to my personal portfolio website.</p>
+    </section>
+
+    <section id="about" class="about-section">
+        <h2>About Me</h2>
+        <p>I am a web developer passionate about creating beautiful and functional websites.</p>
+        <ul>
+            <li>Skills: HTML, CSS, JavaScript</li>
+            <li>Experience: 2 years</li>
+            <li>Interests: UI/UX Design, Responsive Web</li>
+        </ul>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <h2>Projects</h2>
+        <div class="filter-buttons">
+            <button data-filter="all" class="filter-btn active">All</button>
+            <button data-filter="web" class="filter-btn">Web</button>
+            <button data-filter="design" class="filter-btn">Design</button>
+        </div>
+
+        <div class="project-gallery">
+            <div class="project-card" data-category="web">
+                <h3>Website 1</h3>
+                <p>A responsive business website.</p>
+            </div>
+            <div class="project-card" data-category="design">
+                <h3>Design 1</h3>
+                <p>UI/UX for a mobile app.</p>
+            </div>
+            <div class="project-card" data-category="web">
+                <h3>Website 2</h3>
+                <p>Portfolio website design.</p>
+            </div>
+            <div class="project-card" data-category="design">
+                <h3>Design 2</h3>
+                <p>Logo and branding concept.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+        <p id="formMessage"></p>
+    </section>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
