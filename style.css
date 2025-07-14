@@ -8,7 +8,7 @@
 
 body {
     line-height: 1.6;
-    background-color: #f9f9f9;
+    background-color: #524848;
     color: #333;
 }
 
@@ -46,7 +46,7 @@ header {
 .home-section {
     text-align: center;
     padding: 80px 20px 60px 20px;
-    background-color: #fff;
+    background-color: #675d8b;
 }
 
 .profile-img {
@@ -74,7 +74,7 @@ p {
 
 /* About Section */
 .about-section {
-    background-color: #f0f0f0;
+    background-color: #dbecd8;
     padding: 60px 20px;
     max-width: 800px;
     margin: 0 auto 60px auto;
@@ -139,7 +139,7 @@ p {
 }
 
 .project-card {
-    background: white;
+    background: rgb(217, 229, 231);
     padding: 20px;
     width: 260px;
     border-radius: 10px;
@@ -199,7 +199,7 @@ button[type="submit"] {
     border: none;
     padding: 12px;
     font-size: 1.2rem;
-    color: white;
+    color: rgb(114, 96, 163);
     border-radius: 25px;
     cursor: pointer;
     transition: background-color 0.3s ease;
@@ -230,3 +230,4 @@ button[type="submit"]:hover {
         align-items: center;
     }
 }
+
